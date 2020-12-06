@@ -13,14 +13,26 @@ footer{
 }
 
 /* Align the h1 containing your name in the center of the header*/
+h1{
+  text-align: center;
+}
 
 /* Make your p tag a different color and italic */
+p{
+  font-style: italic;
+  color: rgb(100, 102, 180);
+}
 
 /* Put a border around your image */
 img{
   height: 100px;
   width: 100px;
-
+  border-style: solid;
+  border-color: black;
 }
 
+
 /* Change the font-family of your list */
+ul li{
+  font-family: monospace;
+}
